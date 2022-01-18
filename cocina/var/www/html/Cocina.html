@@ -1,0 +1,14 @@
+<head>
+<script type="text/javascript"><!--
+function reloadcam2(){
+document.getElementById('cam2').src='images/cocina.jpg?'+(new Date()).getTime();
+setTimeout('reloadcam2()',500)
+}
+//--></script>
+</head>
+
+<body onLoad="javascript:reloadcam2();">
+
+<img src="images/cocina.jpg" alt="Cocina" id="cam2">
+
+</body>

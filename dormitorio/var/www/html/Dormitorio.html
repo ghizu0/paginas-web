@@ -1,0 +1,14 @@
+<head>
+<script type="text/javascript"><!--
+function reloadcam1(){
+document.getElementById('cam1').src='images/dormitorio.jpg?'+(new Date()).getTime();
+setTimeout('reloadcam1()',500)
+}
+//--></script>
+</head>
+
+<body onLoad="javascript:reloadcam1();">
+
+<img src="images/dormitorio.jpg" alt="Dormitorio" id="cam1">
+
+</body>
